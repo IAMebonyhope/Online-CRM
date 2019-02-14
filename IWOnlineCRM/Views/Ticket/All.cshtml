@@ -1,0 +1,95 @@
+﻿<div class="row">
+    <div class="col">
+        <div class="card shadow card-table">
+            <div class="card-header border-0">
+                <h3 class="mb-0">Ticket/All</h3>
+            </div>
+            <div class="table-responsive">
+                <table id="ticket-table" class="table align-items-center table-flush">
+                    <thead class="thead-light">
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Category</th>
+                            <th scope="col">Customer</th>
+                            <th scope="col">Title</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                000002390
+                            </td>
+                            <td>
+                                Implementation
+                            </td>
+                            <td>
+                                InfoWARE
+                            </td>
+                            <td>
+                                In-house: Creation of Email Templates
+                            </td>
+                            <td class="text-right">
+                                <div class="dropdown">
+                                    <a class="btn btn-icon-only" style="color:#003002;" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                000002390
+                            </td>
+                            <td>
+                                Implementation
+                            </td>
+                            <td>
+                                InfoWARE
+                            </td>
+                            <td>
+                                In-house: Creation of Email Templates
+                            </td>
+                            <td class="text-right">
+                                <div class="dropdown">
+                                    <a class="btn btn-icon-only" href="#" style="color:#003002;" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                000002390
+                            </td>
+                            <td>
+                                Implementation
+                            </td>
+                            <td>
+                                InfoWARE
+                            </td>
+                            <td>
+                                In-house: Creation of Email Templates
+                            </td>
+                            <td class="text-right">
+                                <div class="dropdown">
+                                    <a class="btn btn-icon-only" href="#" role="button" style="color:#003002;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#ticket-table').DataTable();
+        });
+
+    </script>
+}
